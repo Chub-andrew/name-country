@@ -53,14 +53,8 @@ ___
    ```sh
    python manage.py migrate
    ```
-   
-3. (Optional) use my sample of prefilled DB:
-   ```sh
-   python manage.py fill_authors
-   python manage.py fill_books
-   ```
-   
-4. Start the server:
+
+3. Start the server:
    ```sh
    python manage.py runserver
    ```
@@ -69,12 +63,12 @@ ___
 
 ##### For creating user you should:
 1. Go to one of these link:
-   - Register user: /users/register
-   - Get token: /users/token
+   - Register user: /user/register
+   - Get token: /user/token
 
 ### Token Management
-- Refresh your token when it expires using the following URL: /users/token/refresh
-- Get information about yourself using the following URL: //localhost:8000/users/token/me
+- Refresh your token when it expires using the following URL: /user/token/refresh
+- Get information about yourself using the following URL: //localhost:8000/user/token/me
 
    
 ### Docker local installation:
@@ -91,6 +85,8 @@ ___
 ## Important Endpoints in Project:
 
 ##### * /api/user/ - User page
+##### * /api/names/?name="Name you are looking for"
+##### * /api/popular-names/?country="Country you are looking for"
 For detailed API documentation, visit [Swagger Documentation](http://localhost:8000/api/doc/swagger/).
 
 

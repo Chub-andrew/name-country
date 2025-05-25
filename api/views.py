@@ -110,5 +110,4 @@ class NationalityView(APIView):
                 'capital': country_obj.capital_name,
                 'region': country_obj.region,
             })
-        print("HELLLO!!!!!!!!!!")
         return Response({'name': name, 'results': results})
