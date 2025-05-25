@@ -91,6 +91,8 @@ For detailed API documentation, visit [Swagger Documentation](http://localhost:8
 
 
 ## Key Features
+Telegram alert
+![Screenshot 2025-05-25 184455.png](../../../OneDrive/Pictures/Screenshots/Screenshot%202025-05-25%20184455.png)
 
 
 
